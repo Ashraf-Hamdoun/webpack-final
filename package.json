@@ -4,12 +4,17 @@
   "description": "WebPack project for NLP",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "webpack --config webpack.prod.js"
   },
   "keywords": [
     "webpack",
     "NLP"
   ],
   "author": "Ashraf H",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0"
+  }
 }
