@@ -1,0 +1,15 @@
+{
+  "name": "webpack-final",
+  "version": "1.0.0",
+  "description": "WebPack project for NLP",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "webpack",
+    "NLP"
+  ],
+  "author": "Ashraf H",
+  "license": "ISC"
+}
